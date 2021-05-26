@@ -11,3 +11,4 @@ def is_anagram(s, t)
 end
 
 # contraints said all strings are lowercase, or would have to adapt solution a bit
+# an easy change would be to just convert both inputs to lowercase or uppercase using .upcase
