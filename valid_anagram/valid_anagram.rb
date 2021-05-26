@@ -11,5 +11,4 @@ def is_anagram(s, t)
 end
 
 # contraints said all strings are lowercase, or would have to adapt solution a bit
-
-(n+1) * (n+2)/2
+# an easy change would be to just convert both inputs to lowercase or uppercase using .upcase
