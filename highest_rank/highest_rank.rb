@@ -13,3 +13,9 @@ def highest_rank(arr)
  res.sort_by!(&:first)
 return res[-1].first[1]
 end
+
+# possibly better version?
+def highest_rank_two(arr)
+  max = 0
+arr.each {|el| max = el if (arr.count(el) > arr.count(max)||(arr.count(el) == arr.count(max) && el > max))}
+end
